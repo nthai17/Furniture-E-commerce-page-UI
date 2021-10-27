@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <title>HTML, CSS</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="header__nav grid">
+            <ul class="header__nav-list">
+                <li class="heaeder__nav-item heaeder__nav-item-language nav-item">
+                    <a href="#" class="header__nav-link nav-link">
+                        <img src="./assets/img/en.jpg" alt="">
+                        <span>English</span>
+                    </a>
+                    <ul class="header__subnav-list">
+                        <li class="header__subnav-item">
+                            <a href="#"title="english">
+                                <img src="./assets/img/en.jpg" alt="">
+                                <span>English</span>
+                            </a>
+                        </li>
+                        <li class="header__subnav-item">
+                            <a href="#"title="russian">
+                                <img src="./assets/img/ru.jpg" alt="">
+                                <span>Russian</span>
+                            </a>
+                        </li>
+                        <li class="header__subnav-item">
+                            <a href="#"title="brazil">
+                                <img src="./assets/img/bra.jpg" alt="">
+                                <span>Brazil</span>
+                            </a>
+                        </li>
+                        <li class="header__subnav-item">
+                            <a href="#"title="france">
+                                <img src="./assets/img/fr.jpg
+                                " alt="">
+                                <span>France</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="heaeder__nav-item heaeder__nav-item-currency nav-item">
+                    <a href="#" class="header__nav-link nav-link">USD</a>
+                    <ul class="header__subnav-list">
+                        <li class="header__subnav-item">
+                            <a href="#" title="usd">USD</a>
+                        </li>
+                        <li class="header__subnav-item">
+                            <a href="#" title="eur">EUR</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <nav class="header__nav-wrap">
+                <div id="header__menu-btn">
+                    <i class="fas fa-anchor"></i>
+                </div>
+                <ul class="header__nav-list">
+                    <li class="heaeder__nav-item nav-item">
+                        <a href="" class="header__nav-link nav-link">
+                            <i class="fas fa-user"></i>
+                            <span>My Account</span>
+                        </a>
+                    </li>
+                    <li class="heaeder__nav-item nav-item">
+                        <a href="" class="header__nav-link nav-link">
+                            <i class="far fa-heart"></i>
+                            <span>Wishlist</span>
+                        </a>
+                    </li>
+                    <li class="heaeder__nav-item nav-item">
+                        <a href="" class="header__nav-link nav-link">
+                            <i class="far fa-check-square"></i>
+                            <span>Checkout</span>
+                        </a>
+                    </li>
+                    <li class="heaeder__nav-item nav-item">
+                        <a href="" class="header__nav-link nav-link">
+                            <i class="fas fa-key"></i>
+                            <span>Login</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <section id="container" class="grid">
+        <section id="container__header" class="row flex-center">
+            <div id="logo" class="col-l-3">
+                <a href="">
+                    <img src="./assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <nav id="promotion" class="col-l-9">
+                <ul class="promotion__list row">
+                    <li class="promotion__item col-l-4">
+                        <a href="" class="promotion__link">
+                            <div class="promotion__icon flex-center">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="promotion__content">
+                                <h4>FREE DELIVERY WORLDWIDE</h4>
+                                On order over $100
+                            </div>
+                        </a>
+                    </li>
+                    <li class="promotion__item col-l-4">
+                        <a href="" class="promotion__link">
+                            <div class="promotion__icon flex-center">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <div class="promotion__content">
+                                <h4>UP TO 20% OFF COSY LAYERS</h4>
+                                Lorem ipsum dolor sit amet
+                            </div>
+                        </a>
+                    </li><li class="promotion__item col-l-4">
+                        <a href="" class="promotion__link">
+                            <div class="promotion__icon flex-center">
+                                <i class="fas fa-gift"></i>
+                            </div>
+                            <div class="promotion__content">
+                                <h4>BUY 1 GET 1 FREE</h4>
+                                On order over $100
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="container__nav">
+            <div class="container__nav-wrap row">
+                <nav class="container__nav-left col-l-9 ">
+                    <div id="container__nav-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <ul class="container__nav-list flex-space-between">
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">HOME</a>
+                            <!-- <ul id="link-home" class="container__subnav-list">
+                                <li class="container__subnav-item">Homepage 1</li>
+                                <li class="container__subnav-item">Homepage 2</li>
+                                <li class="container__subnav-item">Homepage 3</li>
+                                <li class="container__subnav-item">Homepage 4</li>
+                                <li class="container__subnav-item">Homepage 5</li>
+                            </ul> -->
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">FURNITURE</a>
+                            <!-- <ul id="link-home" class="container__subnav-list">
+                                <li class="container__subnav-item">Homepage 1</li>
+                                <li class="container__subnav-item">Homepage 2</li>
+                                <li class="container__subnav-item">Homepage 3</li>
+                                <li class="container__subnav-item">Homepage 4</li>
+                                <li class="container__subnav-item">Homepage 5</li>
+                            </ul> -->
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">COFFEE TABLE</a>
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">SOFAS</a>
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">BEDROOM FURNITURE</a>
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">SHOP</a>
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">BLOG</a>
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">SHORTCODES</a>
+                        </li>
+                        <li class="container__nav-item nav-item">
+                            <a href="#" class="container__nav-link nav-link">CONTACT US</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="container__nav-right col-l-3">
+                    <ul class="flex-justify-end">
+                        <li class="container__nav-item block-search">
+                            <a href="#" class="container__nav-link search-icon">
+                                <i class="fas fa-search"></i>
+                            </a>
+                            <div class="search-form">
+                                <form>
+                                    <input type="text" name="search" class="search-input" placeholder="Search entire store here...">
+                                    <button id="search-submit" class="btn" type="submit">SEARCH</button>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="container__nav-item mini-cart">
+                            <a href="#" class="container__nav-link">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="text-active">0</span>
+                                <span>( item )</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section id="container__banners" class="row">
+            <div class="banners-left col-l-6">
+                <figure class="banner-figure">
+                    <a href="#" class="banners-link">
+                        <img src="./assets/img/banners-furniture.png" alt="">
+                    </a>
+                </figure>
+            </div>
+            <div class="banners-right col-l-6">
+                <div class="banners-right--child">
+                    <figure class="banner-figure">
+                        <a href="#" class="banners-link">
+                            <img src="./assets/img/banners-sofa1.png" alt="">
+                        </a>
+                    </figure>
+                </div>
+                <div class="banners-right--child row">
+                    <figure class="banner-figure col-l-6">
+                        <a href="#" class="banners-link">
+                            <img src="./assets/img/banners-sofa2.jpg" alt="">
+                        </a>
+                    </figure>
+                    <figure class="banner-figure col-l-6">
+                        <a href="#" class="banners-link">
+                            <img src="./assets/img/banners-chair.jpg" alt="">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="container__products-listing"class="container__section">
+            <header class="section__header row">
+                <nav class="section__header-nav col-l-4 col-m-12">
+                    <ul class="section__header-list flex-justify-start">
+                        <li class="section__header-item">
+                            <a href="#" class="section__header-link">LATEST</a>
+                        </li>
+                        <li class="section__header-item">
+                            <a href="#" class="section__header-link">BEST SELLER</a>
+                        </li>
+                        <li class="section__header-item">
+                            <a href="#" class="section__header-link">FEATURED</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="section__header-decorative col-l-8 col-m-0"></div>
+            </header>
+            <section class="section__content row">
+                <div class="content__product">
+                    <nav class="content__product-nav">
+                        <ul class="content__product-list">
+                            <li class="content__product-item col-l-2-4 col-m-3">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair1.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices"><s>$ 9.00</s> $ 7.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4 col-m-3">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair2.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 10.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4 col-m-3">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair3.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices"><s>$ 3.00</s> $ 2.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4 col-m-3">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair4.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 13.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4 col-m-3">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair5.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 14.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="section__loadmore">
+                <button class="btn btn--showmore">LOAD MORE ITEMS</button>
+            </section>
+            <section class="section__new-product row">
+                <div class="new-product-img col-l-6">
+                    <figure class="flex-center">
+                        <img src="./assets/img/new-product.jpg" alt="hinh anh">
+                    </figure>
+                </div>
+                <section class="new-product-desc col-l-6">
+                    <div class="new-product-wrap">
+                        <header class="new-product-header">
+                            <h1>AXEL - STOOL</h1>
+                            <h4>NEW PRODUCTS</h4>
+                        </header>
+                        <div class="new-product-text">
+                            <p>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+                        </div>
+                        <div class="new-product-buybtn">
+                            <a href="#" class="btn btn--buy-new-product">BUY NOW</a>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <section id="container__product-suggest" class="container__section">
+            <header class="section__header flex-space-between">
+                <h1>SUGGEST COLLECTION</h1>
+                <div class="section__header-decorative"></div>
+            </header>
+            <nav>
+                <div id="suggest-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="suggest__list flex-center">
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column active">
+                            <img src="./assets/img/suggest-office-chair.jpg" alt="">
+                            <span>Office chair</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-sofas.png" alt="">
+                            <span>Sofas</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-good-chair.jpg" alt="">
+                            <span>Good chair</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-coffee-chair.jpg" alt="">
+                            <span>Coffee chair</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-ourdoor-table.jpg" alt="">
+                            <span>Ourdoor table</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-ipsum-chair.jpg" alt="">
+                            <span>Ipsum chair</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-wood-chair.jpg" alt="">
+                            <span>Wood chair</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-coffee-table.jpg" alt="">
+                            <span>Coffee table</span>
+                        </a>
+                    </li>
+                    <li class="suggest__item">
+                        <a href="#" class="suggest__link flex-column">
+                            <img src="./assets/img/suggest-living-room.jpg" alt="">
+                            <span>Living room</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="section__content row">
+                <div class="content__product">
+                    <nav class="content__product-nav">
+                        <ul class="content__product-list">
+                            <li class="content__product-item col-l-2-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair1.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices"><s>$ 9.00</s> $ 7.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair2.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 10.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair3.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices"><s>$ 3.00</s> $ 2.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair4.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 13.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="content__product-item col-l-2-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair5.jpg" alt="hình ảnh"></a>
+                                    <div class="option-addto-cart flex-center">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD</div>
+                                    <nav class="option-list flex-center">
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-heart"></i>
+                                            <span class="option-note">Add to Wishlist</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="fas fa-random"></i>
+                                            <span class="option-note">Compare</span>
+                                        </span>
+                                        <span class="option-item flex-center">
+                                            <i class="far fa-eye"></i>
+                                            <span class="option-note">Quick view</span>
+                                        </span>
+                                    </nav>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 14.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="promotion-banner row">
+                <div class="banners-child col-l-6">
+                    <figure class="banner-figure">
+                        <a href="#" class="banners-link">
+                            <img src="./assets/img/suggest-banner1.jpg" alt="hình ảnh">
+                        </a>
+                    </figure>
+                </div>
+                <div class="banners-child col-l-3">
+                    <figure class="banner-figure">
+                        <a href="#" class="banners-link">
+                            <img src="./assets/img/suggest-banner2.jpg" alt="hình ảnh">
+                        </a>
+                    </figure>
+                </div>
+                <div class="banners-child col-l-3">
+                    <figure class="banner-figure">
+                        <a href="#" class="banners-link">
+                            <img src="./assets/img/suggest-banner3.jpg" alt="hình ảnh">
+                        </a>
+                    </figure>
+                </div>
+            </section>
+        </section>
+        <section id="container__most-viewed" class="container__section">
+            <header class="section__header flex-space-between">
+                <h1>MOST VIEWED</h1>
+                <div class="section__header-decorative"></div>
+            </header>
+            <section class="section__content row">
+                <div class="content__product">
+                    <nav class="content__product-nav">
+                        <ul class="content__product-list">
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair1.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name"><a href="#">Modular Modern</a></span>
+                                    <span class="info-prices"><s>$ 9.00</s> $ 7.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair2.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 10.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair3.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices"><s>$ 3.00</s> $ 2.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair4.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 13.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/product-chair5.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 14.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/most-viewed-chair1.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 14.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/most-viewed-chair2.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 14.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="content__product-item flex-center col-l-3 col-m-4">
+                                <div class="content__product-link">
+                                    <a href="#"><img class="product-img" src="./assets/img/most-viewed-chair3.jpg" alt="hình ảnh"></a>
+                                </div>
+                                <div class="content__product-info">
+                                    <span class="info-name">Modular Modern</span>
+                                    <span class="info-prices">$ 14.00</span>
+                                    <span class="info-stars">
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                    <a href="#" class="btn btn--add-to-cart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        ADD TO CARD
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </section>
+        <section id="container__lastest-posts" class="container__section">
+            <header class="section__header flex-space-between">
+                <h1>LATEST POSTS</h1>
+                <div class="section__header-decorative"></div>
+            </header>
+            <section class="section__content">
+                <nav class="posts__nav">
+                    <ul class="posts__list row">
+                        <li class="posts__item col-l-4 col-m-6">
+                            <section class="posts__preview">
+                                <div class="banners-child">
+                                    <figure class="banner-figure">
+                                        <a href="#" class="banners-link">
+                                            <img src="./assets/img/lastest-post-img1.jpg" alt="hình ảnh">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="posts__item-info">
+                                    <section class="time-post">
+                                        <span class="day-post">27</span>
+                                        <span class="month-post">OCT</span>
+                                    </section>
+                                    <section class="preview-content">
+                                        <header>
+                                            <h4 class="post-author">Admin</h4>
+                                            <a href="" class="post-title">
+                                                Richard McClintock at Hampden-Sydney
+                                            </a>
+                                        </header>
+                                        <div class="post-excerpt">
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                        </div>
+                                    </section>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="posts__item col-l-4 col-m-6">
+                            <section class="posts__preview">
+                                <div class="banners-child">
+                                    <figure class="banner-figure">
+                                        <a href="#" class="banners-link">
+                                            <img src="./assets/img/lastest-post-img2.jpg" alt="hình ảnh">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="posts__item-info">
+                                    <section class="time-post">
+                                        <span class="day-post">27</span>
+                                        <span class="month-post">OCT</span>
+                                    </section>
+                                    <section class="preview-content">
+                                        <header>
+                                            <h4 class="post-author">Admin</h4>
+                                            <a href="" class="post-title">
+                                                Latin professor at Hampden-Sydney
+                                            </a>
+                                        </header>
+                                        <div class="post-excerpt">
+                                            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature.
+                                        </div>
+                                    </section>
+                                </div>
+                            </section>
+                        </li>
+                        <li class="posts__item col-l-4 col-m-6">
+                            <section class="posts__preview">
+                                <div class="banners-child">
+                                    <figure class="banner-figure">
+                                        <a href="#" class="banners-link">
+                                            <img src="./assets/img/lastest-post-img3.jpg" alt="hình ảnh">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="posts__item-info">
+                                    <section class="time-post">
+                                        <span class="day-post">27</span>
+                                        <span class="month-post">OCT</span>
+                                    </section>
+                                    <section class="preview-content">
+                                        <header>
+                                            <h4 class="post-author">Admin</h4>
+                                            <a href="" class="post-title">
+                                                Morbi semper eros sit amet mi molestie
+                                            </a>
+                                        </header>
+                                        <div class="post-excerpt">
+                                            Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                        </div>
+                                    </section>
+                                </div>
+                            </section>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <section id="container__brand">
+            <div class="brand__slider">
+                <nav class="brand__nav">
+                    <ul class="brand__list row">
+                        <li class="brand__item col-l-2">
+                            <a href="#" class="brand__link">
+                                <img src="./assets/img/mbm.png" alt="">
+                            </a>
+                        </li>
+                        <li class="brand__item col-l-2">
+                            <a href="#" class="brand__link">
+                                <img src="./assets/img/nova.png" alt="">
+                            </a>
+                        </li>
+                        <li class="brand__item col-l-2">
+                            <a href="#" class="brand__link">
+                                <img src="./assets/img/avio.png" alt="">
+                            </a>
+                        </li>
+                        <li class="brand__item col-l-2">
+                            <a href="#" class="brand__link">
+                                <img src="./assets/img/avan.png" alt="">
+                            </a>
+                        </li>
+                        <li class="brand__item col-l-2">
+                            <a href="#" class="brand__link">
+                                <img src="./assets/img/lamino.png" alt="">
+                            </a>
+                        </li>
+                        <li class="brand__item col-l-2">
+                            <a href="#" class="brand__link">
+                                <img src="./assets/img/nazic.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </section>
+    <footer id="footer">
+        <section id="footer__content">
+            <nav class="footer__content-nav grid">
+                <ul class="footer__content-list row">
+                    <li class="footer__content-item footer__contact col-l-2-4 col-m-4">
+                        <h2>CONTACT US</h2>
+                        <div class="footer__contact-type flex-justify-start">
+                            <div class="footer-icon flex-center">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="footer__contact-wrap">
+                                <p>8888 South Avenue Street, New York</p>
+                            </div>
+                        </div>
+                        <div class="footer__contact-type flex-justify-start">
+                            <div class="footer-icon flex-center">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="footer__contact-wrap">
+                                <p>(12) 3 456 7896</p>
+                                <p>(12) 3 456 7895</p>
+                            </div>
+                        </div>
+                        <div class="footer__contact-type flex-justify-start">
+                            <div class="footer-icon flex-center">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="footer__contact-wrap">
+                                <p><a href="mailto:contact@simen.com">contact@simen.com</a></p>
+                                <p><a href="mailto:info@simen.com">info@simen.com</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="footer__content-item footer__service col-l-2-4 col-m-4">
+                        <h2>SERVICE</h2>
+                        <nav class="footer__service-nav flex-justify-start">
+                            <ul class="footer__service-list">
+                                <li class="footer__service-item">
+                                    <a href="#">Prices & Currencies</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Secure Payment</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Delivery Times & Costs</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Returns & Exchanges</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">FAQ’s</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="footer__content-item footer__account col-l-2-4 col-m-4">
+                        <h2>ACCOUNT</h2>
+                        <nav class="footer__service-nav flex-justify-start">
+                            <ul class="footer__service-list">
+                                <li class="footer__service-item">
+                                    <a href="#">My Account</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Wishlist</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Order History</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Specials</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Gift Vouchers</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="footer__content-item footer__info col-l-2-4 col-m-4">
+                        <h2>IMFORMATION</h2>
+                        <nav class="footer__service-nav flex-justify-start">
+                            <ul class="footer__service-list">
+                                <li class="footer__service-item">
+                                    <a href="#">My Account</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Wishlist</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Order History</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Specials</a>
+                                </li>
+                                <li class="footer__service-item">
+                                    <a href="#">Gift Vouchers</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="footer__content-item footer__register-email col-l-2-4 col-m-4">
+                        <h2>NEWSLETTER</h2>
+                        <form id="form-register-mail">
+                            <p>Register your email to news</p>
+                            <input class="input" type="email" name="email" placeholder="Your email here">
+                            <button class="btn btn--register-email">SUBCRIBE</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="footer__copyright">
+            <div>© 2021 Ecommerce software Designed by SNSTheme.Com</div>
+        </section>
+    </footer>
+</body>
+</html>

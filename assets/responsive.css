@@ -1,0 +1,171 @@
+#header__menu-btn{
+    display: none;
+    padding: 0  20px;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+#header__menu-btn i{
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+@media (max-width: 1214px) {
+    /* container nav + search */
+    #container__nav-btn{
+        display: inline-block;
+    }
+
+    #container__nav-btn i{
+        font-size: 3.5rem;
+        color: black;
+    }
+    .container__nav-list{
+        transform: translateX(0);
+    }
+    .container__nav-left .container__nav-list{
+        position: fixed;
+        top: -10px;
+        left: -300px;
+        height: 100vh;
+        min-width: 300px;
+        background-color: var(--primary-color);
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 13;
+        transition: all 0.5s ease;
+    }
+    .container__nav-left .container__nav-item{
+        width: 100%;
+    }
+    .container__nav-left .container__nav-link{
+        color: var(--text-color);
+        padding: 16px 0;
+        display: block;
+        border-bottom: 1px solid var(--border-color);
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+    #container__nav-btn:hover + .container__nav-list, .container__nav-left .container__nav-list:hover{
+        left: 0;
+    }
+}
+
+@media (max-width: 974px) {
+    .header__nav-wrap .header__nav-list{
+        display: none;
+    }
+    .header__nav-wrap #header__menu-btn{
+        position: relative;
+        display: block;
+    }
+    .header__nav-wrap #header__menu-btn:hover{
+        cursor: pointer;
+    }
+    .header__nav-wrap:hover .header__nav-list, .header__nav-wrap .header__nav-list:hover{
+        display: block;
+    }
+    .header__nav-wrap{
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .header__nav-wrap .header__nav-list{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        min-width: 150px;
+        z-index: 12;
+        background-color: white;
+        margin-top: 0;
+        border: 1px solid var(--border-color);
+        border-bottom: none;
+    }
+    .header__nav-wrap .header__nav-link{
+        padding: 12px 20px !important;
+        border-left: none !important;
+        border-bottom: 1px solid var(--border-color);
+    }
+    /* promotion */
+    .promotion__link{
+        justify-content: center;
+    }
+    .promotion__content{
+        display: none;
+    }
+    /* container product listing */
+    .content__product-link a img{
+        width: 100%;
+    }
+    /* container new product */
+    .new-product-header h1{
+        margin-bottom: 26px;
+    }
+    /* container suggest */
+    #suggest-menu-btn{
+        display: inline-block;
+    }
+    #suggest-menu-btn:hover + .suggest__list, .suggest__list:hover{
+        left: 0;
+    }
+    #suggest-menu-btn i{
+        font-size: 3.5rem;
+        color: black;
+    }
+    .section__header-decorative {
+        display: none;
+    }
+    .suggest__list, .suggest__item{
+        border: none;
+        border-left: none !important;
+    }
+    .suggest__item{
+        flex: unset;
+        height: unset;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+    }
+    .suggest__item img{
+        display: none;
+    }
+    .suggest__link::before, .suggest__link::after{
+        display: none !important;
+    }
+    .suggest__list{
+        position: fixed;
+        top: -10px;
+        left: -200px;
+        height: 100vh;
+        min-width: 200px;
+        background-color: var(--primary-color);
+        flex-direction: column;
+        justify-content: flex-start !important;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 13;
+        transition: all 0.5s ease;
+    }
+    .suggest__list span{
+        color: var(--text-color);
+    }
+    .suggest__link{
+        padding: 15px 0;
+        width: 100%;
+        text-align: left;
+        align-items: flex-start !important;
+    }
+
+    /* most viewed */
+    #container__most-viewed .content__product-info{
+        padding-left: 12px;
+    }
+    #container__most-viewed .content__product-info .info-name{
+        margin-top: 0;
+    }
+
+    /* lastest post */
+    #container__lastest-posts .posts__item:not(:first-child, :nth-child(2)){
+        display: none;
+    }
+}
