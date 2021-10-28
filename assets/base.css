@@ -123,12 +123,12 @@ figure{
     margin: auto;
 }
 
-@media (max-width: 1214px) {
+@media  only screen and (max-width: 1214px) {
     .grid{
         width: 90%;
     }
 }
-@media (max-width: 974px) {
+@media only screen and (max-width: 992px) {
     .col-m-12{
         width: 100%;
         padding-left: 12px;
@@ -153,5 +153,26 @@ figure{
         width: 0;
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .row{
+        margin: 0 -8px;
+    }
+    .col-s-6{
+        width: 50%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .col-s-12{
+        width: 100%;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .col-s-4{
+        width: 33.3333%;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
