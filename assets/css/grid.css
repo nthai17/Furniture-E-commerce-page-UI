@@ -56,6 +56,11 @@
         padding-left: 12px;
         padding-right: 12px;
     }
+    .col-m-11{
+        width: 91.6667%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
     .col-m-10{
         width: 83.3333%;
         padding-left: 12px;
@@ -78,6 +83,11 @@
     }
     .col-m-2{
         width: 16.6667%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .col-m-1{
+        width: 8.3333%;
         padding-left: 12px;
         padding-right: 12px;
     }

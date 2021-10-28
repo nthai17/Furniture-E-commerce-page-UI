@@ -135,7 +135,10 @@
         font-size: 3.5rem;
         color: black;
     }
-    .header__nav-wrap:hover + .suggest__list, .suggest__list:hover{
+    #container__product-suggest > nav{
+        width: min-content;
+    }
+    #container__product-suggest > nav:hover .suggest__list, .suggest__list:hover{
         left: 0;
     }
     .section__header-decorative {
@@ -233,12 +236,7 @@
         height: 480px;
         overflow-y: scroll;
     }
-    .container__product-suggest nav{
-        width: min-content;
-    }
-    .container__product-suggest nav:hover .suggest__list, .suggest__list:hover{
-        left: 0;
-    }
+    
     .promotion-banner .banners-child:first-child{
         margin-bottom: 16px;
     }
