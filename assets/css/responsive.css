@@ -244,6 +244,12 @@
     }
 
 
+    /* section product listed */
+    .section__header-link{
+        font-size: 1.5rem;
+    }
+
+
     /* most viewed section */
     #container__most-viewed .content__product-item{
         height: auto;
@@ -274,6 +280,8 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+
     /* brand section */
     .brand__list{
         flex-wrap: wrap;
