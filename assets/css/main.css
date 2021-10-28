@@ -691,7 +691,7 @@
     width: 100%;
 }
 .posts__list{
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 .posts__item-info{
     display: flex;
