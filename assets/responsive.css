@@ -115,7 +115,11 @@
     .content__product-link a img{
         width: 100%;
     }
-
+    .option-addto-cart, .option-list{
+        position: relative;
+        height: 32px;
+        left: 0;
+    }
 
     /* container new product */
     .new-product-header h1{
