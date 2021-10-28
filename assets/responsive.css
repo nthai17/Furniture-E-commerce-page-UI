@@ -47,9 +47,8 @@
         font-size: 1.4rem;
         font-weight: 300;
     }
-    #container__nav-btn:hover + .container__nav-list, .container__nav-left .container__nav-list:hover{
-        left: 0;
-    }
+
+    
     /* most viewed */
     #container__most-viewed .content__product-link a img {
         width: 100%;
@@ -94,31 +93,46 @@
         border-left: none !important;
         border-bottom: 1px solid var(--border-color);
     }
+
+    /* nav section */
+    .container__nav-left:hover .container__nav-list, .container__nav-left .container__nav-list:hover{
+        left: 0;
+    }
+
+
     /* promotion */
     .promotion__link{
         justify-content: center;
     }
+
+
     .promotion__content{
         display: none;
     }
+
+
     /* container product listing */
     .content__product-link a img{
         width: 100%;
     }
+
+
     /* container new product */
     .new-product-header h1{
         margin-bottom: 26px;
     }
+
+
     /* container suggest */
     #suggest-menu-btn{
         display: inline-block;
     }
-    #suggest-menu-btn:hover + .suggest__list, .suggest__list:hover{
-        left: 0;
-    }
     #suggest-menu-btn i{
         font-size: 3.5rem;
         color: black;
+    }
+    .header__nav-wrap:hover + .suggest__list, .suggest__list:hover{
+        left: 0;
     }
     .section__header-decorative {
         display: none;
@@ -184,11 +198,10 @@
     }
     .heaeder__nav-item{
         height: 100%;
+        display: flex;
+        align-items: center;
     }
-    .header__nav-link{
-        display: block;
-        line-height: 46px;
-    }
+
 
     /* section header  */
     #container__header, #container__banners{
@@ -213,8 +226,14 @@
     }
     #container__product-suggest .content__product-list,
     #container__products-listing .content__product-list{
-        height: 310px;
-        overflow: hidden;
+        height: 480px;
+        overflow-y: scroll;
+    }
+    .container__product-suggest nav{
+        width: min-content;
+    }
+    .container__product-suggest nav:hover .suggest__list, .suggest__list:hover{
+        left: 0;
     }
     .promotion-banner .banners-child:first-child{
         margin-bottom: 16px;
@@ -226,8 +245,8 @@
         height: auto;
     }
     #container__most-viewed .content__product-list{
-        height: 486px;
-        overflow: hidden;
+        height: 480px;
+        overflow-y: scroll;
     }
     .btn--add-to-cart{
         padding: 10px 0;
