@@ -8,7 +8,7 @@
     font-size: 1.6rem;
     color: var(--text-color);
 }
-@media only screen and (max-width: 1214px) {
+@media only screen and (max-width: 1200px) {
     /* container nav + search */
     #container__nav-btn{
         display: inline-block;
